@@ -2591,8 +2591,8 @@ select.form-control-lg:not([size]):not([multiple]) {
 .btn {
     display: inline-block;
     font-weight: 400;
-    text-align: center;
-    white-space: nowrap;
+    text-align:left;
+    white-space: unset;
     vertical-align: middle;
     -webkit-user-select: none;
     -moz-user-select: none;
