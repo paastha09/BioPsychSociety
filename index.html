@@ -31,6 +31,38 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
 
+    <!-- modal start -->
+    <html lang="en">
+        <head>
+        <meta charset="utf-8">
+        <title>Example of Auto Loading Bootstrap Modal on Page Load</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("#myModal").modal('show');
+            });
+        </script>
+        </head>
+        <body>
+        <div id="myModal" class="modal fade" style="background-color:rgba(0, 0, 0, 0.5);">
+            <div class="modal-dialog" style="padding-top: 20px; margin-top:50px">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="padding-right: 30px">&times;</button>
+                        <h4 class="modal-title">Are you a poster presenter? Have you already sent us your abstracts?</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Poster presenters, please ensure you have sent us your abstracts, you may do so through this link: <a href="https://docs.google.com/forms/d/e/1FAIpQLSfamJpvFwPi1J7Y1ayN_TDVofTCJbTcf7RL9Y4QS-GizCqBug/viewform?usp=sf_link">https://docs.google.com/forms/</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </body>
+    </html>                               
+    <!-- modal end -->
+
     <!-- header-start -->
     <header>
         <div class="header-area ">
